@@ -1,0 +1,17 @@
+.container {
+  width: 50%;
+  margin: 200px auto;
+  text-align: center;
+}
+
+.istenen_sekil {
+  display: inline-block;
+  width: 400px;
+  height: 280px;
+  border: 6px solid #000;
+  background-color: #ad7496;
+  border-top-left-radius: 0.8em;
+  border-top-right-radius: 1.4em;
+  border-bottom-right-radius: 2.5em;
+  border-bottom-left-radius: 3.5em;
+}
