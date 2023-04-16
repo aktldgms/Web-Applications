@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.box {
+  width: 600px;
+  padding: 20px;
+  margin: 50px;
+  border: 2px inset rgb(29, 108, 255);
+  font-size: 18px;
+}
