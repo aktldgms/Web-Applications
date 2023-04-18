@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: #59f835;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.title {
+  font-size: 26px;
+  color: white;
+  margin: 0;
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: lightgray;
+  text-align: center;
+  padding: 15px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+
+td {
+  color: #666666;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
