@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>7. Madde</title>
+</head>
+<body>
+    <form action="">
+        <input id="name" type="text" placeholder="AA">
+        <input id="surname" type="text" placeholder="BB">
+        <button type="button" onclick="saveUserData()">VERİ GÖNDER</button>
+    </form>
+    <img src="assets/main/uni-logo.jpg" width="500px">
+    <p id="newName">Adınız: AA</p>
+    <p id="newSurname">Soyadınız: BB</p>
+    <p>Okul Numaranız: 200030236</p>
+    <p>Bölümünüz: Bilgisayar Programcılığı</p>
+    <p>Açıklama: Projemde neon scrollbar ve neon text (Photo Gallery başlığı) yaptım, footer bölümünde kayan copyright yaptım, photo gallery bölümünde lightbox yaptım, animasyon fikri bulamadığım için loading animasyonu koydum, kelime sınırlandırmasıyla alakalı internette içerik bulamadığımdan textarea'yı 150 karakter ile sınırlandırdım. slide up ve slide down yapmadım. Şablondan farklı bir site yaptım çünkü istenilenlerle şablonum uymuyordu. Motosikletler ile ilgili bir web sitesi tasarladım.</p>
+    <button type="button" onclick="changeText()">VERİ ÇEK</button>
+
+    <script>
+        var myName;
+        var mySurname
+        function saveUserData() {
+            myName = document.getElementById('name').value;
+            mySurname = document.getElementById('surname').value;
+        }
+
+        function changeText() {
+            var myNewName = document.getElementById('newName');
+            var myNewSurname = document.getElementById('newSurname');
+            var ogrnum = document.getElementById('num');
+
+            myNewName.innerHTML = "Adınız: " + myName;
+            myNewSurname.innerHTML = "Soyadınız: " + mySurname;
+        }
+    </script>
+</body>
+</html>
