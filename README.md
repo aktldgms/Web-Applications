@@ -2,7 +2,7 @@
 
 This project is a simple single-page website designed around a motorcycle theme, showcasing images and a few basic interactive visual effects. The goal of the project was to adhere to specific HTML and CSS requirements outlined by the assignment, including special effects and animations.
 
-### [View the live demo of the project here.](https://aktldgms.github.io/Web-Uygulamalari/Web_Uygulamalari_Proje/)
+### [View the live demo of the project here.](https://aktldgms.github.io/Web-Applications/Project/)
 
 ## Project Overview
 
